@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Yeon+Sung&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 50px 0;
+ font-family: 'Lobster Two', cursive;
+}
+.myinput{
+ width: 40%;
+ padding: 10px;
+ margin: 8px;
+ font-size: 15px;
+ border: 2px solid rgb(126, 48, 48);
+ border-radius: 12px;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  /* padding: 100px; */
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.btn{
+    padding: 12px 25px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 12px;
+    font-weight: bold;
+
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: rgb(247, 36, 36);
+    color: rgb(7, 7, 7);
+     transform: scale(1.1);
+}
