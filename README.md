@@ -1,1 +1,1 @@
-# Dance-Website
+# dance-website
